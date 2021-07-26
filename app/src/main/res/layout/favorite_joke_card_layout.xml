@@ -1,0 +1,54 @@
+<com.zerobranch.layout.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="6dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginRight="6dp"
+    android:hapticFeedbackEnabled="true"
+    app:draggedItem="@id/dragItem"
+    app:isContinuousSwipe="true"
+    app:rightItem="@id/right_view"
+    app:swipeDirection="left">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/right_view"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:src="@drawable/download" />
+
+    </FrameLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/dragItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="12dp"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/favoriteJokeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFE500"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </com.google.android.material.card.MaterialCardView>
+
+</com.zerobranch.layout.SwipeLayout>
