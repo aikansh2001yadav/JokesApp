@@ -1,8 +1,11 @@
-package com.example.jokesapp;
+package com.example.jokesapp.activities;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.jokesapp.fragments.FavoriteJokesFragment;
+import com.example.jokesapp.R;
 
 public class FavoriteJokesActivity extends AppCompatActivity {
 

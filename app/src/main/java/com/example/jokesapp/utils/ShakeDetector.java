@@ -1,4 +1,4 @@
-package com.example.jokesapp;
+package com.example.jokesapp.utils;
 
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;

@@ -1,4 +1,4 @@
-package com.example.jokesapp;
+package com.example.jokesapp.activities;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -21,6 +21,9 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.arasthel.asyncjob.AsyncJob;
+import com.example.jokesapp.utils.JokesData;
+import com.example.jokesapp.R;
+import com.example.jokesapp.utils.ShakeDetector;
 import com.example.jokesapp.controller.CardStackDataAdapter;
 import com.example.jokesapp.controller.LikeIsClicked;
 import com.example.jokesapp.model.CustomJokeManager;

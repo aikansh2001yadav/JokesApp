@@ -1,4 +1,4 @@
-package com.example.jokesapp;
+package com.example.jokesapp.utils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

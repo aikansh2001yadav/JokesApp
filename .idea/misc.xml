@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidDevelopmentProjects/JokesApp/app/src/main/res/layout/activity_favorite_jokes.xml" value="0.2" />
+        <entry key="..\:/AndroidDevelopmentProjects/JokesApp/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidDevelopmentProjects/JokesApp/app/src/main/res/layout/create_new_joke_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/AndroidDevelopmentProjects/JokesApp/app/src/main/res/layout/favorite_joke_card_layout.xml" value="0.2" />
+        <entry key="..\:/AndroidDevelopmentProjects/JokesApp/app/src/main/res/layout/jokes_cardstack_layout.xml" value="0.23125" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

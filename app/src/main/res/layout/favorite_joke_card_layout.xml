@@ -1,5 +1,6 @@
 <com.zerobranch.layout.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/swipe_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -32,7 +33,7 @@
         android:id="@+id/dragItem"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:cardCornerRadius="12dp"
+        app:cardCornerRadius="6dp"
         android:layout_margin="5dp">
 
         <TextView
@@ -48,7 +49,8 @@
             android:paddingStart="20dp"
             android:paddingEnd="10dp"
             android:textSize="16sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="SpeakableTextPresentCheck" />
     </com.google.android.material.card.MaterialCardView>
 
 </com.zerobranch.layout.SwipeLayout>

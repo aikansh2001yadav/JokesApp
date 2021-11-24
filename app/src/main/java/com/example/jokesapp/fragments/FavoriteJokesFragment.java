@@ -1,4 +1,4 @@
-package com.example.jokesapp;
+package com.example.jokesapp.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.jokesapp.R;
 import com.example.jokesapp.controller.FavoriteJokesAdapter;
 import com.example.jokesapp.model.JokeManager;
 
